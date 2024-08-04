@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'gilroy';
+    box-sizing: border-box;
+}
+html,body{
+         width: 100%;
+         height: 100%;
+}
+.main{
+    background-color:#fff;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 12% 72% 16%;
+}
+
+ .left-top-left{
+    /* background-color: blueviolet; */
+    color: rgba(110, 68, 177, 0.813);
+    width: 100%;
+    height: 100%;
+
+ }
+ h2{
+    padding-left: 30%;
+    padding-top: 5%;
+   
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .left-bottom{
+    /* background-color: rgb(111, 186, 18); */
+     width: 100%;
+    height: 122%;
+    
+ }
+ .left-bottom{
+   padding: 11%;
+   padding-left: 30%;
+ }
+
+
+ .right-top-right{
+    /* background-color: rgb(214, 76, 12);  */
+    width: 100%;
+    height: 100%;
+ }
+nav{
+    /* background-color: rgb(128, 55, 89); */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500px;
+   display: grid;
+   grid-template-columns: 30% 25% 25% 25%;
+   padding: 55px;
+   color: rgba(110, 68, 177, 0.813);
+ }
+ .left-center{
+    /* background-color: rgb(23, 141, 232);  */
+    width: 100%;
+    height: 100%;
+    
+
+ }
+
+ div button{
+   padding:15px;
+  color:#fff;
+   margin-left: 30%;
+   margin-top: 5%;
+   background-color: rgba(110, 68, 177, 0.813);
+   border-color:#fff;
+   font-size:20px;
+   font-weight: 500;
+ }
+ div .omg{font-family: Arial, Helvetica, sans-serif;
+   font-size: 50px;
+   padding-top:25% ;
+   padding-left:30%;
+   font-weight: 600;
+
+ }
+ .right-center{
+    /* background-color: rgb(230, 15, 187); */
+     width: 100%;
+    height: 127%;
+ }
+ .right-center img{
+   width: 100%;
+   height: 100%;
+   align-content: center;
+justify-content: center;
+border-radius: 100px;
+object-fit: cover;
+ }
